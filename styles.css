@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d0d0d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.profile-card {
+    text-align: center;
+    background: #181818;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    width: 320px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #444;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+p.tagline {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+
+ul.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+ul.social-links li {
+    margin: 10px 0;
+}
+
+ul.social-links a {
+    text-decoration: none;
+    background: #222;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s;
+    border: 1px solid #444;
+}
+
+
+ul.social-links a:hover {
+    background: linear-gradient(45deg, #ff0077, #7000ff);
+    box-shadow: 0 0 10px #ff0077, 0 0 20px #7000ff;
+    transform: scale(1.05);
+}
+
+
+.credit {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #777;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
